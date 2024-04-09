@@ -1,0 +1,119 @@
+.discover-main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .discover-main-section .covers-image {
+    width: 30vw;
+    margin-left: 2rem;
+    height: auto;
+    max-width: 350px;
+  }
+  
+  .icon-section {
+    display: flex;
+  }
+  
+  .brand-logo-name{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    color: #BC3A80;
+  }
+  .main-nav{
+    color:#BDE0FE;
+    font-size: 1.3em;
+  }
+  .title{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    color: #F4F0BB;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding: .75rem;
+    width: 100px;
+    height: 100px;
+    background-color: #202027;
+    margin-bottom: 2rem;
+  }
+  .ri-folder-music-line{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  .ri-music-2-line{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+  }
+.ri-more-fill{
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+  .home-page-circle-1 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(188, 58, 128, .1);
+    bottom: 5vw;
+    left: 5vw;
+    z-index: -1;
+  }
+  
+  .home-page-circle-2 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(52, 87, 178, .1);
+    top: 15vh;
+    left: 30vw;
+    z-index: -1;
+  }
+  
+  .home-page-circle-3 {
+    position: absolute;
+    overflow: hidden;
+    width: 45vw;
+    height: 45vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .home-page-circle-3::before {
+    content: '';
+    transform: translate(40%, 40%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(52, 87, 178, .1);
+  }
+  .icon img {
+    width: 40px;
+  }
+  
+  @media (max-width: 800px) {
+    .discover-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .discover-main-section .covers-image {
+      margin-top: 2rem;
+      height: 30vh;
+      width: auto;
+    }
+  }
